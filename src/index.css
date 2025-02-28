@@ -1,0 +1,89 @@
+.card {
+  border: 1px solid rgb(101, 99, 99);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+/* ✅ Fix: Remove .card from the class selector */
+.card-image {
+  width: 100px; /* Set a fixed width */
+  height: 100px; /* Set a fixed height */
+  object-fit: cover; /* Prevent stretching, crop if necessary */
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: grey;
+}
+
+.card-text {
+  font-family: Arial, sans-serif;
+  color: grey;
+}
+.student{
+  font-family: Arial,sans-serif;
+  font-size: 2rem;
+  padding: 10px;
+  border: 1px solid grey;
+
+}
+.student p{
+  margin: 0;
+
+}
+.welcome-message{
+  font-size: 2.5rem;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin:0;
+}
+.login-prompt{
+  font-size: 2.5rem;
+  background-color:red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin:0;
+
+}
+.list-category{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color:grey;
+  margin: 10px;
+  text-align: center;
+  border: 3px solid grey;
+  border-radius: 5px;
+  background-color: green;
+
+}
+.list-items{
+  list-style: none;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  color:grey
+
+}
+.list-items:hover{
+  cursor: pointer;
+  color: blue;
+}
+#image{
+  width: 100px; /* Set a fixed width */
+  height: 100px; /* Set a fixed height */
+  object-fit: cover; /* Prevent stretching, crop if necessary */
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+}
